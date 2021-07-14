@@ -3,7 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-!**/src/test/resources/*-test.properties
+!**/src/test/resouces/
 
 ### STS ###
 .apt_generated
@@ -34,7 +34,7 @@ build/
 ### VS Code ###
 .vscode/
 
-### Eclise ###
+### Eclipse ###
 .metadata
 bin/
 tmp/
