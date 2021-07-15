@@ -16,7 +16,7 @@ _**NOTE:** This repository is not to be developed on. Create another repository 
 
 ___
 1. Create a repository under the [Aline Financial](https://github.com/Aline-Financial) organization.
-2. Select `Aline-Financial/aline-microservice-template` as the repository template.
+2. Select `Aline-Financial/aline-microservice-template` as the repository template. Select `Include all branches`.
 3. Clone your repository onto your machine.
 4. In the projects root, run `git submodule init`. A `core/` directory should now be created.
 5. Run `git submodule update` to pull down the most recent core. (_Note:_ This will clone the [Core Repository](https://github.com/Aline-Financial/core) that is automatically checked out to a hashed branch.)
