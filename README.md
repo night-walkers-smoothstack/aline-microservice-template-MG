@@ -8,7 +8,7 @@ Microservice Template
 ___
 _**NOTE:** This repository is not to be developed on. Create another repository and use this as a template._
 
-### Start developing your microservice here
+### Start developing your microservice here.
 <br>
 <br>
 
