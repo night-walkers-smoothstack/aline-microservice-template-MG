@@ -20,7 +20,7 @@ ___
 3. Clone your repository onto your machine.
 4. In the projects root, run `git submodule init`. A `core/` directory should now be created.
 5. Run `git submodule update` to pull down the most recent core. (_Note:_ This will clone the [Core Repository](https://github.com/Aline-Financial/core) that is automatically checked out to a hashed branch.)
-6. Rename main module to be your microservice.
+6. Rename main module to be your microservice. _(ex. usermicroservice)_
 7. Update CI/CD files to match project.
 8. Run `mvn test` to make sure your project builds!
 
@@ -67,12 +67,13 @@ ___
 > - Jenkins (_Jenkinsfile_)
 > - Docker (_Dockerfile_)
 > - CloudFormation Template (_ecs-aws.yaml_)
+> - Swagger 2
+> - Swagger-UI (Access it by going to `http://localhost:{port}/swagger-ui/`)
 
 For more information on tools & plugins included in this project, look at your repo's `pom.xml`.
 
 ___
 
-<br>
 <br>
 
 ### Team Aline
