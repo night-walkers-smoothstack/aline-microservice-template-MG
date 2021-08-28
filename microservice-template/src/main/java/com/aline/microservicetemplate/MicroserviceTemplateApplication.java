@@ -1,11 +1,13 @@
 package com.aline.microservicetemplate;
 
+import com.aline.core.annotation.EnableCoreModule;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+@EnableCoreModule
 @OpenAPIDefinition(info =
     @Info(
             title = "Microservice Template",
