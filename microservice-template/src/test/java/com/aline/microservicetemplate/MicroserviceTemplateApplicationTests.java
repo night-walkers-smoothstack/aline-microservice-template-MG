@@ -1,11 +1,12 @@
 package com.aline.microservicetemplate;
 
+import com.aline.core.annotation.test.SpringBootIntegrationTest;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.test.context.ActiveProfiles;
 
-@ActiveProfiles("test")
-@SpringBootTest
+@SpringBootIntegrationTest
 class MicroserviceTemplateApplicationTests {
 
     @Test
