@@ -23,3 +23,4 @@ spring:
 app:
   security:
     secret-key: "ThisIsAGreatSecretKey!!!"
+    disable-web-security: true
