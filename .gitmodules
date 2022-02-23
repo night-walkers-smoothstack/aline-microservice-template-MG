@@ -1,3 +1,6 @@
 [submodule "core"]
 	path = core
 	url = https://github.com/Aline-Financial/core
+[submodule "dev-ops-MG"]
+	path = dev-ops-MG
+	url = https://github.com/night-walkers-smoothstack/dev-ops-MG
